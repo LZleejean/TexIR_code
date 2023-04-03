@@ -1,8 +1,10 @@
 ## TexIR
 
-This is official code for the paper, "Multi-view Inverse Rendering for Large-scale Real-world Indoor Scenes".
+This is official code for the paper accepted to CVPR 2023, "Multi-view Inverse Rendering for Large-scale Real-world Indoor Scenes".
 
 [Project Page](http://yodlee.top/TexIR/) | [Paper](https://arxiv.org/abs/2211.10206)
+
+![](./examples/fig1.png)
 
 ----
 

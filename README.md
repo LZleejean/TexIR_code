@@ -14,13 +14,23 @@ We encourage users to run our code in the Docker, which ensures the reproducibil
 
 First, please follow [nvdiffrec](https://github.com/NVlabs/nvdiffrec#server-usage-through-docker) to build a basic docker image.
 
-Second, start an interactive docker container: `docker run --runtime nvidia -it --rm --user root --gpus device=0 -v /your_data_folder:/data -v /code_folder:/code nvdiffrec:v1 /bin/bash `
+Second, starting an interactive docker container: `docker run --runtime nvidia -it --rm --user root --gpus device=0 -v /your_data_folder:/data -v /code_folder:/code nvdiffrec:v1 /bin/bash `
 
-Finally, install python packages in the container. `pip install -r requirements.txt`
+Finally, installing python packages in the container. `pip install -r requirements.txt`
 
-#### 2. Data
+#### 2. Dataset
 
-We release the [real dataset]() and [synthetic dataset]() proposed in the paper. (Updating links, TODO)
+We release the real dataset and synthetic dataset proposed in the paper. 
+
+Please send an email to yodlee@mail.nwpu.edu.cn with some necessary information and we will send a download link to you. 
+
+```
+# the necessary information of the request email
+dataset: texir
+name: xx
+organization: xx
+email for receiving link: xx
+```
 
 #### 3. Running in our data
 
@@ -99,7 +109,7 @@ python3 trainer/exp_runner.py --conf configs/syn_neilf.conf --expname scene1 --t
 
 #### 4. Running in custom data
 
-Our code is not support to run in other custom datasets, e.g. Replica. If you want run our method with your data, please re-implement the interface or convert your data into our supported format, which consists of meshs, HDR images, UV-mapping, poses and segmentations.
+Our code is not support to run in other custom datasets, e.g. Replica. If you want to run our method with your data, please re-implement the interface or convert your data into our supported format, which consists of meshs, HDR images, UV-mapping, poses and segmentations.
 
 #### Citation
 

@@ -22,7 +22,7 @@ Finally, installing python packages in the container. `pip install -r requiremen
 
 We release the real dataset and synthetic dataset proposed in the paper. 
 
-Please send an email to yodlee@mail.nwpu.edu.cn with some necessary information and we will send a download link to you. 
+Please send an email to ~~yodlee@mail.nwpu.edu.cn~~ wanglingli008@realsee.com or pancihui001@realsee.com with some necessary information and we will send a download link to you. 
 
 ```
 # the necessary information of the request email
